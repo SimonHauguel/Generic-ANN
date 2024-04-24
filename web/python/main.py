@@ -73,11 +73,7 @@ def generate_architecture(inputs, neuron_info_per_layer, output_number):
 
             nb_total_neuron += 1
 
-            weights = (
-                '"' +
-                "".join(map(lambda m: f"{m:08b}", n_weights)) +
-                '";\n'
-            )
+            weights = '"' + "".join(map(lambda m: f"{m:08b}", n_weights)) + '";\n'
 
             acc_header += f"\tsignal weights_n{nb_total_neuron} : STD_LOGIC_VECTOR({len(n_weights)*8-1} downto 0) := {weights}"
             acc_header += f"\tsignal bias_n{nb_total_neuron} : INTEGER range 255 downto 0 := {bias};\n"

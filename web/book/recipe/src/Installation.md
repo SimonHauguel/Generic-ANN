@@ -14,10 +14,11 @@
 
 - Dans le cas où vous souhaitez héberger vous même ce MdBook, suivez la page d'installation de leur documentation [Documentation MdBook](https://rust-lang.github.io/mdBook/guide/installation.html)
 - L'outil de versionnement [Git](https://git-scm.com/downloads), dans le cas où vous souhaitez cloner directement les sources.
+- [HTERM](https://www.der-hammer.info/pages/terminal.html), pour récuperer les sorties de votre réseau de neurones. Un tout petit script python peut très bien faire l'affaire.
 
 # Installation
 
 Vous retrouverez toutes les sources sur le repository [GitHub suivant](https://github.com/SimonHauguel/Generic-ANN).
 Vous pouvez le cloner via : `git clone https://github.com/SimonHauguel/Generic-ANN.git`
 
-Une fois installé, vous trouverez un fichier d'example `wmatrix` et un dossier `web`. Dans le dossier `web` se trouve, les fichiers sources python et les fichiers sources de ce MdBook.
+Une fois installé, vous trouverez un fichier d'example `wmatrix` et un dossier `web`. Dans le dossier `web` se trouve, les fichiers [sources python](https://github.com/SimonHauguel/Generic-ANN/tree/main/web/python) et les fichiers sources de [ce MdBook](https://github.com/SimonHauguel/Generic-ANN/tree/main/web/book/recipe).

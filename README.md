@@ -1,0 +1,1 @@
+Retrouvez le wiki à cette [adresse](https://simonhauguel.github.io/Generic-ANN/web/book/recipe/book/).
